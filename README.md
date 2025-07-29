@@ -1,49 +1,50 @@
-# Sentiment Analysis on Movie Review Data
+Sure! Here’s a more **humanized** and natural-sounding version of your README — short, clear, and written as if *you* built it personally:
 
-## Overview
-This project aims to perform sentiment analysis on the IMDB movie review dataset. It utilizes deep learning techniques, particularly LSTM and Conv1D layers, to classify movie reviews into positive and negative sentiments. The model is built using Keras and GloVe embeddings for word representations.
+---
 
-## Project Structure
-- **Sentiment Analysis of Movie Review using Keras.ipynb**: The main notebook containing code for data preprocessing, model building, training, and evaluation.
-- **dataSentimental/IMDB Dataset/IMDB Dataset.csv**: The dataset containing movie reviews.
-- **dataSentimental/glove/glove.840B.300d.pkl**: Pre-trained GloVe embeddings used for word representation.
-- **trained_model/Sentiment_Analysis/imdb_model.h5**: The saved model after training.
+# Sentiment Analysis on Movie Reviews 🎬
 
-## Libraries Used
-- TensorFlow & Keras
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
-- WordCloud
-- scikit-learn
+## About the Project
 
-## Key Features
-1. **Data Preprocessing**: Handling missing values, encoding labels, and data cleaning to remove unwanted characters and contractions.
-2. **Data Visualization**: Visualizing the most frequent words in positive and negative reviews using WordCloud.
-3. **GloVe Embeddings**: Using pre-trained GloVe embeddings to enhance the model's understanding of word semantics.
-4. **Model Architecture**: A combination of Conv1D, LSTM, and Dense layers with dropout for reducing overfitting.
-5. **Model Evaluation**: Evaluating model performance using metrics like accuracy and loss.
+I built this project to explore how deep learning can understand the sentiment behind movie reviews — whether they’re positive or negative. It’s based on the IMDB dataset and uses a combination of **Conv1D** and **LSTM** layers in Keras, along with **GloVe** word embeddings to better understand the meaning of words.
 
-## How to Run
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/rishimule/Sentiment-Analysis-of-Movie-Reviews.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd sentiment-analysis-movie-reviews
-    ```
-3. Install the required libraries:
+## What’s Inside
 
-4. Run the Jupyter notebook `Sentiment Analysis of Movie Review using Keras.ipynb` to preprocess data, train the model, and evaluate its performance.
+* 📓 Jupyter Notebook with all steps: preprocessing, model building, training, and testing.
+* 📁 Dataset: IMDB reviews in CSV format.
+* 🧠 Pre-trained GloVe embeddings (for word meaning).
+* 💾 Trained model saved for reuse.
 
-## Results
-The model achieved a training accuracy of X% and a validation accuracy of Y%. The loss and accuracy plots indicate the model's learning curve over the epochs.
+## Tech Stack
 
-## Authors
-- Hashir Khan
-- Rishi Mule
+* Python, TensorFlow, Keras
+* Pandas, NumPy
+* Matplotlib, Seaborn, WordCloud
+* scikit-learn
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ What I Did
+
+* Cleaned and preprocessed the text data
+* Visualized common words in reviews using WordClouds
+* Loaded GloVe embeddings for deeper word understanding
+* Designed a Conv1D + LSTM model
+* Evaluated model performance using accuracy and loss
+
+ How to Try It
+
+1. Clone the repo:
+
+   ```
+   git clone https://github.com/Nancy-200507/Sentimal_Analysis_Proj.git
+   cd Sentimal_Analysis_Proj
+   ```
+2. Install the required libraries
+3. Open the notebook and run the cells step-by-step
+
+Results
+
+The model achieved good accuracy on validation data and shows consistent learning over epochs.
+
+
+
+
