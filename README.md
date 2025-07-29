@@ -1,21 +1,18 @@
-Sure! Here’s a more **humanized** and natural-sounding version of your README — short, clear, and written as if *you* built it personally:
 
----
 
-# Sentiment Analysis on Movie Reviews 🎬
+Sentiment Analysis on Movie Reviews 🎬
 
-## About the Project
+About the Project
 
 I built this project to explore how deep learning can understand the sentiment behind movie reviews — whether they’re positive or negative. It’s based on the IMDB dataset and uses a combination of **Conv1D** and **LSTM** layers in Keras, along with **GloVe** word embeddings to better understand the meaning of words.
 
-## What’s Inside
+What’s Inside
 
 * 📓 Jupyter Notebook with all steps: preprocessing, model building, training, and testing.
 * 📁 Dataset: IMDB reviews in CSV format.
 * 🧠 Pre-trained GloVe embeddings (for word meaning).
 * 💾 Trained model saved for reuse.
-
-## Tech Stack
+ Tech Stack
 
 * Python, TensorFlow, Keras
 * Pandas, NumPy
