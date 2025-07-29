@@ -17,6 +17,8 @@ By,
 
 import tensorflow as tf
 from tensorflow import keras
+print("Script started")
+
 
 print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 
@@ -97,6 +99,7 @@ wordcloud2 = WordCloud(width = 800, height = 800,
                 background_color ='black',
                 stopwords = stopwords,
                 min_font_size = 10).generate(neg)
+
 
 plt.imshow(wordcloud2)
 plt.title('Negative Sentiment')
